@@ -1,0 +1,191 @@
+export const data = [
+  {
+    question: "Кто разработал язык программирования JavaScript?",
+    option1: "Брендан Айк",
+    option2: "Ларри Пейдж",
+    option3: "Марк Андрессен",
+    option4: "Тим Бернерс-Ли",
+    ans: 1,
+  },
+  {
+    question: "Что означает акроним ECMAScript?",
+    option1: "European Computer Manufacturers Association Script",
+    option2: "Electronic Control Management System",
+    option3: "Easy Code Manipulation and Scripting",
+    option4: "Enterprise Content Management System",
+    ans: 1,
+  },
+  {
+    question: "Какая версия JavaScript была первой официально выпущенной?",
+    option1: "1.0",
+    option2: "1.1",
+    option3: "1.5",
+    option4: "2.0",
+    ans: 1,
+  },
+  {
+    question:
+      "Как называется процесс объединения переменных и функций в единое целое в JavaScript?",
+    option1: "Hoisting",
+    option2: "Merging",
+    option3: "Combining",
+    option4: "Grouping",
+    ans: 1,
+  },
+  {
+    question: "Что такое замыкание (closure) в JavaScript?",
+    option1: "Это процесс закрытия браузера после выполнения скрипта",
+    option2:
+      "Это возможность функции запоминать и иметь доступ к своей области видимости даже после завершения выполнения",
+    option3: "Это метод создания анонимных функций",
+    option4: "Это процесс оптимизации кода",
+    ans: 2,
+  },
+  {
+    question:
+      "Какой оператор используется для строгого сравнения значений и типов в JavaScript?",
+    option1: "==",
+    option2: "===",
+    option3: "!=",
+    option4: "!==",
+    ans: 2,
+  },
+  {
+    question: "Что такое DOM в контексте JavaScript?",
+    option1: "Document Object Model",
+    option2: "Data Object Model",
+    option3: "Dynamic Output Mechanism",
+    option4: "Document Order Manager",
+    ans: 1,
+  },
+  {
+    question: "Как создать новый элемент DOM в JavaScript?",
+    option1: "document.createElement('newElement')",
+    option2: "DOM.createNewElement('newElement')",
+    option3: "createNewElement('newElement')",
+    option4: "document.createNode('newElement')",
+    ans: 1,
+  },
+  {
+    question: "Что такое JSON?",
+    option1: "JavaScript Object Notation",
+    option2: "Java Standard Object Notation",
+    option3: "JavaScript Object Naming",
+    option4: "Java Simple Object Naming",
+    ans: 1,
+  },
+  {
+    question: "Как добавить обработчик события (event listener) в JavaScript?",
+    option1: "addEvent('click', function)",
+    option2: "addEventListener('click', function)",
+    option3: "attachEvent('click', function)",
+    option4: "onEvent('click', function)",
+    ans: 2,
+  },
+  {
+    question: "Что такое AJAX в контексте веб-разработки?",
+    option1: "Asynchronous JavaScript and XML",
+    option2: "Advanced JavaScript and XHTML",
+    option3: "Asynchronous Java and XML",
+    option4: "Advanced Java and XHTML",
+    ans: 1,
+  },
+  {
+    question:
+      "Каким образом можно предотвратить действие по умолчанию при событии в JavaScript?",
+    option1: "event.stopDefault()",
+    option2: "event.preventDefault()",
+    option3: "event.prevent()",
+    option4: "event.stop()",
+    ans: 2,
+  },
+  {
+    question: "Что такое обещание (Promise) в JavaScript?",
+    option1:
+      "Это объект, представляющий результат асинхронной операции, которая может быть завершена успешно или с ошибкой",
+    option2: "Это функция, выполняющая асинхронный код",
+    option3: "Это событие, возникающее при завершении асинхронной операции",
+    option4: "Это метод, используемый для создания асинхронных функций",
+    ans: 1,
+  },
+  {
+    question: "Какие основные типы данных существуют в JavaScript?",
+    option1: "String, Integer, Boolean, Object",
+    option2: "Text, Number, TrueFalse, Dictionary",
+    option3: "Character, Numeric, Logic, Array",
+    option4: "String, Number, Boolean, Object, Array",
+    ans: 4,
+  },
+  {
+    question: "Как проверить тип данных переменной в JavaScript?",
+    option1: "typeof variable",
+    option2: "checkType(variable)",
+    option3: "variable.type()",
+    option4: "getType(variable)",
+    ans: 1,
+  },
+  {
+    question: "Что такое RESTful API?",
+    option1:
+      "Representational State Transferful Application Programming Interface",
+    option2: "Remote Service and Transmissionful API",
+    option3:
+      "Representative System Transfer and Application Programming Interface",
+    option4:
+      "Representational State Transfer Application Programming Interface",
+    ans: 4,
+  },
+  {
+    question:
+      "Как выполнить асинхронный запрос в JavaScript с использованием Fetch API?",
+    option1: "fetchAsync('url')",
+    option2: "asyncFetch('url')",
+    option3: "fetch('url').async()",
+    option4: "fetch('url')",
+    ans: 4,
+  },
+  {
+    question: "Как добавить класс элементу в JavaScript?",
+    option1: "element.addClassName('newClass')",
+    option2: "element.classAdd('newClass')",
+    option3: "element.addClass('newClass')",
+    option4: "element.classList.add('newClass')",
+    ans: 4,
+  },
+  {
+    question: "Что такое webpack?",
+    option1: "Это фреймворк для разработки на JavaScript",
+    option2:
+      "Это инструмент для сборки и управления зависимостями веб-приложений",
+    option3: "Это библиотека для работы с асинхронным кодом",
+    option4: "Это стандарт языка JavaScript",
+    ans: 2,
+  },
+  {
+    question: "Каким образом можно объявить константу в JavaScript?",
+    option1: "const myConstant = 42;",
+    option2: "let myConstant = 42;",
+    option3: "var myConstant = 42;",
+    option4: "constant myConstant = 42;",
+    ans: 1,
+  },
+  {
+    question: "Что такое мемоизация в контексте JavaScript?",
+    option1:
+      "Это процесс оптимизации кода за счет уменьшения объема используемой памяти",
+    option2:
+      "Это метод кэширования результатов выполнения функций для повторного использования",
+    option3: "Это процесс сжатия кода для ускорения загрузки веб-страниц",
+    option4: "Это техника работы с асинхронным кодом",
+    ans: 2,
+  },
+  {
+    question:
+      "Каким образом можно выполнить асинхронный код последовательно с использованием async/await?",
+    option1: "await executeAsyncFunction1(); await executeAsyncFunction2();",
+    option2: "executeAsyncFunction1() && executeAsyncFunction2()",
+    option3: "executeAsyncFunction1() || executeAsyncFunction2()",
+    option4: "executeAsyncFunction1(); executeAsyncFunction2();",
+    ans: 1,
+  },
+];
